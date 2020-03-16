@@ -1,0 +1,25 @@
+.line-up {
+  margin-bottom: 105px;
+}
+.line-up .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.line-up .container > div {
+  margin: 0 auto;
+}
+
+.line-up form input {
+  height: 44px;
+  margin-bottom: 10px;
+}
+
+.one-half {
+  width: 48% !important;
+}
+
+.one-third {
+  width: 33.66%;
+}

@@ -1,0 +1,19 @@
+.hero {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: $pink-light-transparent;
+}
+
+.hero .container h1 {
+  color: $pink-midle;
+  font-weight: 900;
+}
+
+.hero .container p b {
+  color: $pink-midle;
+  font-weight: 900;
+}
+.hero .container .lead {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}

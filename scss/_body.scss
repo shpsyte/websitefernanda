@@ -1,0 +1,16 @@
+*::-moz-selection {
+  background: $pink-dark-light;
+  color: #fff;
+}
+*::selection {
+  background: $pink-dark-light;
+  color: #fff;
+}
+
+body {
+  font-family: $font-family;
+  text-rendering: optimizeLegibility;
+  font-weight: 300;
+  font-style: normal;
+  
+}
