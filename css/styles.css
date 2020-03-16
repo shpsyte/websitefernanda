@@ -45,11 +45,6 @@ main {
   border-color: #ffd8f0;
 }
 
-footer {
-  color: #fff;
-  background: #6c757d !important;
-}
-
 *::-moz-selection {
   background: #f8b3ba !important;
   color: #fff;
@@ -65,6 +60,14 @@ body {
   text-rendering: optimizeLegibility;
   font-weight: 300;
   font-style: normal;
+}
+
+.one-half {
+  width: 48% !important;
+}
+
+.one-third {
+  width: 33.66%;
 }
 
 header {
@@ -137,12 +140,67 @@ header nav .container a img {
   margin-bottom: 10px;
 }
 
-.one-half {
-  width: 48% !important;
+.line-up ul {
+  list-style: none;
 }
 
-.one-third {
-  width: 33.66%;
+.line-up ul li i {
+  margin-right: 8px;
+  color: #ff1a75;
+}
+
+#mc_embed_signup div#mce-responses {
+  top: 2px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#mc_embed_signup #mce-success-response {
+  color: #529214;
+  display: none;
+  font-size: 1.25rem;
+}
+
+#mc_embed_signup div.response {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#mc_embed_signup div.response {
+  margin: 0 !important;
+  padding: 0 !important;
+  content: "Obrigada, agora estamos conectadas";
+}
+
+footer {
+  background: #6c757d !important;
+  min-height: 140px;
+  bottom: 0;
+  width: 100%;
+  margin-top: 10px;
+}
+
+footer .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 12px;
+}
+
+footer .container * {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+footer .container ul {
+  display: flex;
+  list-style: none;
+  font-weight: 900;
+  padding: 0 !important;
+}
+
+footer .container ul li:nth-child(2) {
+  margin: 0 12px;
 }
 
 @media screen and (max-width: 860px) {
