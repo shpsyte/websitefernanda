@@ -1,0 +1,48 @@
+.line-up {
+  margin-bottom: 105px;
+}
+.line-up .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.line-up .container > div {
+  margin: 0 auto;
+}
+
+.line-up form input {
+  height: 44px;
+  margin-bottom: 10px;
+}
+
+.line-up ul {
+  list-style: none;
+}
+
+.line-up ul li i {
+  margin-right: 8px;
+  color: $pink;
+}
+#mc_embed_signup div#mce-responses {
+  top: 2px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#mc_embed_signup #mce-success-response {
+  color: #529214;
+  display: none;
+  font-size: 1.25rem;
+}
+
+#mc_embed_signup div.response {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#mc_embed_signup div.response {
+  margin: 0 !important;
+  padding: 0 !important;
+  content: "Obrigada, agora estamos conectadas";
+}

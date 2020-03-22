@@ -1,0 +1,9 @@
+@media screen and (max-width: 860px) {
+  .one-half,
+  .one-third {
+    width: 100% !important;
+  }
+  .hide-mobile {
+    display: none;
+  }
+}

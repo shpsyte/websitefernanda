@@ -1,0 +1,30 @@
+header {
+  background: $write;
+  padding: 15px 0;
+  border-bottom: 1px solid $pink-light-transparent;
+  box-shadow: 0 0 0 0.2rem $pink-light-transparent;
+}
+
+header nav .container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+header nav .container p {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: 0;
+}
+
+header nav .container a img {
+  width: 64px;
+  margin-right: 12px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-image: linear-gradient(white, white),
+    radial-gradient(circle at top left, #f00, purple);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
