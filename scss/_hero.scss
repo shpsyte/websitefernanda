@@ -4,15 +4,25 @@
   background-color: $pink-light-transparent;
 }
 
-.hero .container h1 {
+.hero .container h3  {
   color: $pink-midle;
   font-weight: 900;
 }
+
+.hero .container p:nth-child(2) {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
 
 .hero .container p b {
   color: $pink-midle;
   font-weight: 900;
 }
+
+
 .hero .container .lead {
   font-size: 1.25rem;
   line-height: 1.75rem;

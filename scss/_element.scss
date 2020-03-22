@@ -5,14 +5,12 @@ main {
   margin: 0;
 }
 
-.form-control-ex {
-  background: $pink-light-transparent;
-  border: 1px solid $pink-dark-light;
-}
 
 .form-control-ex {
-  background: $pink-light-transparent !important;
-  border: 1px solid $pink-dark-light !important;
+  // background: $pink-light-transparent !important;
+  border: 1px solid $pink-dark-light;
+  padding: 25px;
+  font-size: 1.15em;
 }
 .form-control-ex:focus {
   color: #022d58;
@@ -41,4 +39,13 @@ main {
   color: #fff;
   background-color: $pink-input;
   border-color: $pink-write;
+}
+
+.btn-exs{
+  border-radius: 0 !important;
+  box-shadow: 0 0 0 0.2rem $pink-light-transparent;
+}
+
+.form-control-ex {
+   border-radius: 0 !important;
 }
